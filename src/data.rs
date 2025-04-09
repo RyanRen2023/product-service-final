@@ -73,5 +73,76 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
         //     description: "Ensure your furry friend stays safe during water adventures with the Ahoy Doggy Life Jacket. Designed for dogs, this flotation device offers buoyancy and visibility in style.".to_string(),
         //     image: "/lifejacket.jpg".to_string()
         // }
+        Product {
+            id: 1,
+            name: "Dell XPS 13 Laptop".to_string(),
+            price: 1299.99,
+            description: "Experience premium performance with the Dell XPS 13, featuring a 13.4-inch InfinityEdge display, 11th Gen Intel Core i7 processor, and 512GB SSD.".to_string(),
+            image: "/xps13.png".to_string()
+        },
+        Product {
+            id: 2,
+            name: "Apple MacBook Pro 14\"".to_string(),
+            price: 1999.99,
+            description: "Power through workflows with the Apple MacBook Pro, equipped with the M2 Pro chip, Liquid Retina XDR display, and long-lasting battery life.".to_string(),
+            image: "/macbookpro.png".to_string()
+        },
+        Product {
+            id: 3,
+            name: "Samsung 65\" QLED 4K TV".to_string(),
+            price: 1399.99,
+            description: "Transform your entertainment with Samsung's QLED technology, delivering vibrant colors, sharp contrast, and immersive 4K clarity on a 65-inch screen.".to_string(),
+            image: "/samsungqled.png".to_string()
+        },
+        Product {
+            id: 4,
+            name: "Sony WH-1000XM5 Headphones".to_string(),
+            price: 399.99,
+            description: "Enjoy industry-leading noise cancellation and crystal-clear sound with the Sony WH-1000XM5 wireless headphones.".to_string(),
+            image: "/sonyheadphones.png".to_string()
+        },
+        Product {
+            id: 5,
+            name: "iPhone 15 Pro Max".to_string(),
+            price: 1499.99,
+            description: "Stay ahead with Apple's iPhone 15 Pro Max featuring A17 Pro chip, ProMotion technology, and advanced camera system.".to_string(),
+            image: "/iphone15.png".to_string()
+        },
+        Product {
+            id: 6,
+            name: "Logitech MX Master 3S Mouse".to_string(),
+            price: 129.99,
+            description: "Boost productivity with the ergonomic Logitech MX Master 3S, offering ultra-quiet clicks, MagSpeed scrolling, and multi-device support.".to_string(),
+            image: "/logitechmx3.png".to_string()
+        },
+        Product {
+            id: 7,
+            name: "ASUS ROG Strix Gaming Laptop".to_string(),
+            price: 1799.99,
+            description: "Dominate the battlefield with the ASUS ROG Strix, powered by AMD Ryzen 9 and NVIDIA RTX 4070 for cutting-edge gaming performance.".to_string(),
+            image: "/rogstrix.png".to_string()
+        },
+        Product {
+            id: 8,
+            name: "Google Nest Thermostat".to_string(),
+            price: 129.99,
+            description: "Save energy and control your home's climate with the Google Nest Thermostat, featuring smart scheduling and voice control.".to_string(),
+            image: "/nestthermostat.png".to_string()
+        },
+        Product {
+            id: 9,
+            name: "Canon EOS R50 Mirrorless Camera".to_string(),
+            price: 799.99,
+            description: "Capture stunning photos and videos with the compact Canon EOS R50, equipped with a 24.2MP sensor and 4K recording.".to_string(),
+            image: "/canoneosr50.png".to_string()
+        },
+        Product {
+            id: 10,
+            name: "Anker 737 Power Bank".to_string(),
+            price: 109.99,
+            description: "Keep your devices charged with the Anker 737 Power Bank, offering 140W fast charging and 24,000mAh capacity.".to_string(),
+            image: "/ankerpower.png".to_string()
+        }
+
     ]
 }
